@@ -3,7 +3,7 @@ console.log('Hello World!');
 
 const form = document.querySelector('form');
 const loadingElement = document.querySelector('.loading')
-const API_URL = 'http://localhost:5000/mews';
+const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/mews' : 'https://meower-api.vercel.app/mews';
 const mewsElement = document.querySelector('.mews');
 
 
@@ -46,8 +46,8 @@ function listAllMews() {
     fetch(API_URL)
       .then(response => response.json())
       .then(mews => {
-          console.log(mews);
           mews.reverse();
+          console.log(mews);
           mews.forEach(mew => {
               const div = document.createElement('div');
 

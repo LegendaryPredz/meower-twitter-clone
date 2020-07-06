@@ -1,7 +1,8 @@
 {
-  "name": "meower",
-  "version": 2,
-  "env": {
-    "MONGO_URI": "mongodb+srv://OrionWatson27:Chickenzoo7@meower.ybvmj.mongodb.net/meower-db?retryWrites=true&w=majority"
-  }
+    "builds": [
+        { "src": "index.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "index.js" }
+    ]
 }
