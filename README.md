@@ -11,18 +11,18 @@ With the following features:
 
 ## Objectives
 
-* [ ] 📝 Diagram the Full Stack
-* [ ] 🔎 Differentiate between Client and Server
-* [ ] ⌨️ Get user input on the Client
-* [ ] ➡️ Send user input from the client with fetch to the server
-* [ ] 🗃 Store data in a database
-* [ ] 🔍 Retrieve data from a database on the Server
-* [ ] ⬅️ Retrieve data from a server on the client using Fetch
-* [ ] 🙈 Hide/Show elements on the client
-* [ ] ✨ Add elements to the page on the client
-* [ ] 🚀 Deploy the client with now.sh
-* [ ] 🚀 Deploy the database with mlab
-* [ ] 🚀 Deploy the server with now.sh
+* [x] 📝 Diagram the Full Stack
+* [x] 🔎 Differentiate between Client and Server
+* [x] ⌨️ Get user input on the Client
+* [x] ➡️ Send user input from the client with fetch to the server
+* [x] 🗃 Store data in a database
+* [x] 🔍 Retrieve data from a database on the Server
+* [x] ⬅️ Retrieve data from a server on the client using Fetch
+* [x] 🙈 Hide/Show elements on the client
+* [x] ✨ Add elements to the page on the client
+* [x] 🚀 Deploy the client with now.sh
+* [x] 🚀 Deploy the database with mlab
+* [x] 🚀 Deploy the server with now.sh
 
 ## Front-end
 
@@ -125,16 +125,3 @@ With the following features:
   * [x] Add alias
 * ✅ Deploy client folder with now
   * [x] Set API_URL based on hostname
-
-## What's next?
-
-* Add comments/replies to a mew
-* User Accounts
-  * Don't just have the user enter their name
-  * Sign up/Login
-* User Profiles
-  - Only show mews from a given user
-* Search Mews
-* Hashtags
-* User @mentions
-* Realtime feed of mews
